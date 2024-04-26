@@ -3,91 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dardanon</title>
+  <title>Whoami</title>
   <style>
     /* CSS styles */
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f8f9fa;
-      color: #333;
+      background: radial-gradient(circle, rgba(42,46,53,1) 0%, rgba(12,15,21,1) 100%);
+      color: #fff;
+      line-height: 1.6;
     }
 
     .container {
       max-width: 800px;
       margin: 0 auto;
       padding: 20px;
-      background-color: #fff;
-      border-radius: 20px;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     }
 
     header {
       text-align: center;
-      padding: 20px 0;
+      padding: 50px 0;
     }
 
     header h1 {
       font-size: 3.5em;
-      color: #4e535f;
-      margin-bottom: 10px;
+      color: #ff7e67;
+      margin-bottom: 20px;
     }
 
     header h2 {
       font-size: 2.2em;
-      color: #6c757d;
+      color: #ffbe03;
       margin-bottom: 30px;
     }
 
-    nav ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      text-align: center;
-    }
-
-    nav ul li {
-      display: inline;
-      margin-right: 20px;
-    }
-
-    nav ul li a {
-      text-decoration: none;
-      color: #007bff;
-      font-weight: bold;
-      transition: color 0.3s ease;
-    }
-
-    nav ul li a:hover {
-      color: #0056b3;
-    }
-
-    .hero {
-      background: linear-gradient(to right, #007bff, #00bfff);
-      padding: 60px 40px;
-      text-align: center;
+    .profile-info {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 30px;
       border-radius: 20px;
-      margin-bottom: 30px;
-      position: relative;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     }
 
-    .hero h2 {
-      font-size: 3em;
+    .profile-info h3 {
+      font-size: 1.8em;
       color: #fff;
       margin-bottom: 20px;
     }
 
-    .hero p {
-      color: #fff;
-      font-size: 1.5em;
-      margin-bottom: 30px;
+    .profile-info p {
+      font-size: 1.2em;
+      color: #ccc;
+      margin-bottom: 20px;
     }
 
     .btn {
       display: inline-block;
       padding: 15px 35px;
-      background-color: #fff;
-      color: #007bff;
+      background-color: #ff7e67;
+      color: #fff;
       text-decoration: none;
       border-radius: 25px;
       font-weight: bold;
@@ -95,7 +68,7 @@
     }
 
     .btn:hover {
-      background-color: #007bff;
+      background-color: #ffbe03;
       color: #fff;
     }
 
@@ -114,16 +87,22 @@
 <body>
   <div class="container">
     <header>
-      <h1>Welcome to</h1>
-      <h2>DARDANON</h2>
+      <h1>Whoami?</h1>
+      <h2>A glimpse into my world</h2>
     </header>
-    <section class="hero">
-      <h2>Discover Something New</h2>
-      <p>Explore our exciting features and services.</p>
-      <a href="#" class="btn">Get Started</a>
-    </section>
+    <div class="profile-info">
+      <img src="pic.png" alt="Your Picture" style="display: block; margin: 0 auto; border-radius: 100%; width: 150px;">
+      <h3>About Me</h3>
+      <p>Hey there, I'm Përparim Mjeku, a Cyber Security Instructor from Prishtina, Kosovo. I've been fortunate to teach some incredibly talented people in this field. My focus is on helping others excel, whether they're working alone or in teams. I've also had the opportunity to run customized training sessions for various governments and clients worldwide.</p>
+      <h3>Work Experience</h3>
+      <p><strong>08/2022 – CURRENT</strong><br>Prishtinë, Kosovo<br><em>Cyber Security Instructor, Cyber Academy</em>
+      <h3>Some Digital Skills</h3>
+      <p>Linux, Burp Suite, Python, Bash Scripting, SIEM, Splunk, Cryptography, Network Security, Security Operations, System Administration, CTI, Autopsy, Vulnerability Assessment, Active Directory and more.</p>
+      <a href="https://www.linkedin.com/in/përparimmjeku/" class="btn">Contact Me</a>
+    </div>
+    
     <footer>
-      <p>&copy; 2024. Dardanon. All rights reserved.</p>
+      <p>&copy; 2024. Your Name. All rights reserved.</p>
     </footer>
   </div>
 </body>
